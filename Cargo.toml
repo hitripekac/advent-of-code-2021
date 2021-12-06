@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+	"01a-sonar-sweep",
+	"01b-sonar-sweep", 
+	"02a-dive", 
+	"02b-dive",
+]
