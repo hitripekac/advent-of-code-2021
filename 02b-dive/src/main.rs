@@ -33,14 +33,15 @@ fn parse_line(line: &str) -> Result<Direction, String> {
 
 fn main() -> Result<(), String> {
     let input = read_input("inputs/02a-dive.input")?;
-    let result = input.iter().fold(
-        (0, 0, 0isize),
-        |(depth, position, aim), direction| match direction {
-            &Direction::Forward(amount) => (depth + aim * amount, position + amount, aim),
-            &Direction::Down(amount) => (depth, position, aim + amount),
-            &Direction::Up(amount) => (depth, position, aim - amount),
-        },
-    );
-    println!("{:?}, {}", result, result.0 * result.1);
+    let result =
+        input.iter().fold(
+            (0, 0, 0isize),
+            |(depth, position, aim), direction| match direction {
+                &Direction::Forward(amount) => (depth + aim * amount, position + amount, aim),
+                &Direction::Down(amount) => (depth, position, aim + amount),
+                &Direction::Up(amount) => (depth, position, aim - amount),
+            },
+        );
+    println!("{}", result.0 * result.1);
     Ok(())
 }

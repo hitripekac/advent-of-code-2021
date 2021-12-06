@@ -21,6 +21,6 @@ fn main() -> Result<(), String> {
         .windows(2)
         .filter(|window| window[0] < window[1])
         .count();
-    println!("{:?}", increments);
+    println!("{}", increments);
     Ok(())
 }
