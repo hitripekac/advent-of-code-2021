@@ -5,4 +5,6 @@ members = [
 	"01b-sonar-sweep", 
 	"02a-dive", 
 	"02b-dive",
+	"03a-binary-diagnostic",
+	"03b-binary-diagnostic",
 ]
