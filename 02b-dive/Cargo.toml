@@ -1,5 +1,5 @@
 [package]
-name = "dive-hard"
+name = "aoc2021-02b-dive"
 version = "0.1.0"
 edition = "2018"
 

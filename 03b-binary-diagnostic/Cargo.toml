@@ -1,5 +1,5 @@
 [package]
-name = "binary-diagnostic-hard"
+name = "aoc2021-03b-binary-diagnostic"
 version = "0.1.0"
 edition = "2018"
 

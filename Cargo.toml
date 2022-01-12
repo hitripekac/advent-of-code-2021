@@ -2,9 +2,11 @@
 
 members = [
 	"01a-sonar-sweep",
-	"01b-sonar-sweep", 
-	"02a-dive", 
+	"01b-sonar-sweep",
+	"02a-dive",
 	"02b-dive",
 	"03a-binary-diagnostic",
 	"03b-binary-diagnostic",
+	"04a-giant-squid",
+	"05a-hydrothermal-venture",
 ]
